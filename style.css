@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    overflow: hidden;
+}
+body{
+    background-color: #111;
+    margin: 0;
+    box-sizing: border-box;
+    color: #EEE;
+    font-family: "roboto",sans-serif;
+
+}
+p{
+    margin: 0;
+}
+        .form-container{
+    padding: 3rem 0;
+    background: rgb(165,247,255);
+    background: linear-gradient(180deg, rgba(165,247,255,1) 0%, rgba(92,198,208,1) 100%);
+}
+.form-title{
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    text-align: center;
+}
+.form-subtitle{
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+}
+.form-container form{
+    padding: 2rem;
+
+    margin: auto;
+
+    max-width: 50rem;
+}
+.form-container input[type=text]{
+    width: 23.5rem;
+    border: none;
+    padding: .5rem;
+    margin: .5rem 0;
+    background-color: #EEE;
+}
+.form-container input[type=email]{
+    width: 23.5rem;
+    border: none;
+    padding: .5rem;
+    margin: .5rem 0;
+    background-color: #EEE;
+}
+
+.form-container input[type=submit]{
+    cursor: pointer;
+    border: none;
+    display: block;
+    padding: 1rem 1.5rem;
+    font-weight: 400;
+    background-color: #444;
+    margin: 1rem auto;
+    color: white;
+}
+.form-container input[type=submit]:hover{
+    background-color: #111;
+    color: white;
+}
+.form-container textarea{
+    font-family: "roboto", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5rem;
+    border: none;
+    resize: none;
+    margin: .5rem 0;
+    background-color: #EEE;
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+/* ALERT */
+/* ALERT */
+/* ALERT */
+
+.alert{
+    color: #DDD;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    position: absolute;
+}
+.alert p{
+    margin: 0 auto;
+}
+.alert-danger{
+    background-color: brown;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.alert-success{
+    box-sizing: border-box;
+    font-size: 2rem;
+    background-color: green;
+    padding: 1rem;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@media(min-width:900px){
+    .card-from-container{
+        max-width: 450px;
+    
+    }
+    .form-title{
+        font-size: 4rem;
+    }
+    /* ALERT */
+    /* ALERT */
+    /* ALERT */
+    .alert-success{
+        
+        font-size: 3rem;
+        background-color: green;
+        padding: 1rem;
+        height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
+}
